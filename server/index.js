@@ -1,8 +1,3 @@
-/* The code you provided is a JavaScript code that sets up a server using the Express framework. It
-uses the Multer middleware for handling file uploads and the CORS middleware for enabling
-cross-origin resource sharing. It also imports the ImageAnnotatorClient from the
-'@google-cloud/vision' package for text detection in images. */
-
 const express = require('express');
 const multer = require('multer');
 const cors =  require('cors')
