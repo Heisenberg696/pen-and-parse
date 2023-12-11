@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "handwritten-document-scanner",
+    "private_key_id": "33db128fac9a6adb3230f3fa2878432792e16c9e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDemg4HQg1NDjOp\nF/jtv3gQDEFoflUWI+N1nhy4LvZGpoDb7Ji1dN9lv7WbTxetpScn/VovdqNh2qdx\nrJc16wM5vkIXPI97mPd34LXdyniyc/3gdwu56MYwQjViSCZh7+x9poDppeR1y9aZ\n0Cgyw9QUsKgvTl4Fv6cHT+MpX/q6AL4yHURrQBTANM99J2zA9ssjYQDdPooDO27j\nA29RsFo7PXzpaLmLsX7bB4rq62KDeKF4hdUk73P5U31R5OeXHuyXUdMYeQVAqLJG\nZns1RYxoW8aimU9LCLQeg3EoXIIjLYMOTi3krfEXgBiNke/fPZmYfIQpV/2g32xr\nVIyvXdlrAgMBAAECggEAbeuQxdC+FLDQnc0ypOQJe5MxsVHA3l/2cBwVfnXiMt0B\ngJgCiIgf0HSsTvbtcFe/UCXxJMLmxulcCev59ywHubnTlPnYuGW+vbl+1PioRSa1\n1OO0LKdfRnFLPy71lSMOmrVfrwC2Idz4KZf6YacF0Pmy8zk1gI01A41VVRcKDlJn\nyYyL/k8bjKcjD4VEECtaq3VTwZrtlcxijUwXweMc732s/B9tKcejHc/Wj5d/ZVfF\nCEPzUvREKzfW9wKxMgkzqLTvK12wPauojjQD+sohFGrAOX7SkWApmBljog77Lrbp\npiF9HJEJUpDXSOFafmJnpGWDVg0kzh68xz8XSt0pAQKBgQDzt15nVofDSogUwgfr\ny5MQCkDQ+Q4Ln+adxKgg7vrZ+zRI69Xy14ZTht9m/2j4DEACQcvkzXn0A2HA1WRC\nhfzLgMhRiIdECLZFyoTjLOzOUrv1JfBJVw8DZQunJlM91zbQ/GXdHj0yrN8GTuA4\n3iLWekpY8w4FZXO0ePHe29rEQQKBgQDp0j++yvAWo5T37/Jmu1S94E/9FSp46H9D\nDFzxeAdiU+sLYSnXSl36swMZsDIp8OAp4oDUA8z3JQMC6jFA1cD9lhz5j/geMB3J\nk28osZVSf0dHXhHme8LtFGIyDSdNFG5c6baMb5DknJMqb/zKYxvSbSZKEQbRhh2O\nOhZetKRCqwKBgQCWJCMeWmps3x+SWi5zDwjcWtSvaJ9Efg+epiZFk7QqUd1WByPY\n5Pm1v2MlmrdaCIHuYgZwQD2fG+4+07deXBjubbn6sLdULGHOAQN4yJZiTQnJ7sNn\nCyEOoFNbd/rUIB9/A97lJ9nfvCvxQOpVXlPr+Y6P2byLioKLbe7jsmHFgQKBgQDL\nE+h5dRiBESJZFPWbdChtoVzXmoKA8K1XNm2i63S+WdRS1djZO6XUD5YpwXZQJv0K\nY8cwXPyvyl2LMowEm6I6nR4dQoVk8rVsVbi9xz7Bn/nwaitx2xu5fXKrtfDkaVJR\nMEt0PZHCfJr0yL7tqJaJdHNE8PTTFYCl/p1fM9VWcQKBgQCIdhUCsmw9XUl9VGrf\nsdTps8imcbTtZVsNLmle7Y1qd97kpAszi32E6BYJGVPvCl7QTlnkQB07cm7kFxic\nv613CjCP4B0x/oN6jvu6aEibMqIRZySRtu628O9uzB45tsa/Ro0oUfb8iTsAXIog\nCq9qdmKZ1ao8+XTa42d4waA8ag==\n-----END PRIVATE KEY-----\n",
+    "client_email": "penparse-hand@handwritten-document-scanner.iam.gserviceaccount.com",
+    "client_id": "116454156388591296958",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/penparse-hand%40handwritten-document-scanner.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
