@@ -98,7 +98,7 @@ const SummarizerTwo = () => {
         },
         {
           headers: {
-            Authorization: 'Bearer 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', // Replace with your API key
+            Authorization: 'Bearer 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', // Replace with your API key
           },
         }
       );

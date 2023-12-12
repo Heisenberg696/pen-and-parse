@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors({origin:"*", credentials:true} ))
 const port = 8000;
-process.env.GOOGLE_APPLICATION_CREDENTIALS = 'C:/Users/User/Desktop/3 sem 2/software engineering/SE  Project/server/keyfile.json';
+process.env.GOOGLE_APPLICATION_CREDENTIALS = 'C:/Users/User/Desktop/3 sem 2/software engineering/pen-parse/server/keyfile.json';
 const client = new ImageAnnotatorClient();
 
 // Set up Multer
