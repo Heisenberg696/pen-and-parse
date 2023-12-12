@@ -75,7 +75,7 @@ const SummarizerTwo = () => {
   };
 
   /**
-   * The  code is a JavaScript React function that uses the OpenAI API to summarize text and
+   *  function that uses the OpenAI API to summarize text and
    * generate a PDF report.
    */
   const handleSummarizeClick = async () => {
@@ -83,7 +83,7 @@ const SummarizerTwo = () => {
       const response = await axios.post(
         'https://api.openai.com/v1/chat/completions',
         {
-          temperature: 0.3, // Adjust the creativity of the model (0.0 to 1.0)
+          temperature: 0.3, 
           model: "gpt-3.5-turbo",
           messages: [
 
@@ -98,7 +98,7 @@ const SummarizerTwo = () => {
         },
         {
           headers: {
-            Authorization: 'Bearer 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', // Replace with your API key
+            Authorization: 'Bearer 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', 
           },
         }
       );
@@ -121,7 +121,7 @@ const SummarizerTwo = () => {
 
 
   /**
-   * The `generatePDF` function takes the text from a textarea element, splits it into pages, and
+   *  takes the text from a textarea element, splits it into pages, and
    * generates a PDF report with the text.
    */
   const generatePDF = () => {
@@ -144,7 +144,7 @@ const SummarizerTwo = () => {
   };
   
 
-  /* The `return` statement in the code is returning a JSX (JavaScript XML) expression that represents
+  /*  returning a JSX (JavaScript XML) expression that represents
   the structure and content of the React component. */
   return (
     <>
