@@ -1,3 +1,4 @@
+/* This code is importing necessary modules and setting up the server for processing images. */
 const express = require('express');
 const multer = require('multer');
 const cors =  require('cors')
@@ -14,6 +15,7 @@ const client = new ImageAnnotatorClient();
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
+/* defining a route for handling a POST request to '/process-image'. */
 app.post('/process-image', upload.single('image'), async (req, res) => {
   try {
     if (!req.file) {
