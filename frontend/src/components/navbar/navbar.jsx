@@ -10,9 +10,9 @@ import { Link, useLocation } from 'react-router-dom';
 const Navbar = () => {
   const location = useLocation()
   const [activeTab, setActiveTab] = useState('')
-  useEffect(() => {
-    setActiveTab(location.pathname.split('/'))  
-  }, [activeTab])
+  // useEffect(() => {
+  //   setActiveTab(location.pathname.split('/'))  
+  // }, [activeTab])   
   
   return (
     <div className='navbar'>

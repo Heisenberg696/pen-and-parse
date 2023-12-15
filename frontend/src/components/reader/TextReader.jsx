@@ -118,6 +118,7 @@ const TextReader = () => {
               id= "responseTextArea"
               className={styles.textarea}
               value={responseText}
+              onChange={(e) => setResponseText(e.target.value)}
               placeholder="Digitised text appears here"
             ></textarea>
           </div>
