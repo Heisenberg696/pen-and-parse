@@ -20,7 +20,7 @@ app.post('/process-image', upload.single('image'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).send('No file uploaded.');
-    }pro
+    }
 
     const [result] = await client.textDetection(req.file.buffer);
     const detections = result.textAnnotations;
