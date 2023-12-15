@@ -14,9 +14,6 @@ const Navbar = () => {
     setActiveTab(location.pathname.split('/'))  
   }, [activeTab])
   
-  console.log(location)
-  
-  console.log(location)
   return (
     <div className='navbar'>
       <div className="left">

@@ -60,7 +60,7 @@ const TextReader = () => {
       const formData = new FormData();
       formData.append('image', file);
 
-      const response = await axios.post('http://localhost:8000/process-image', formData);
+      const response = await axios.post('https://penparsebackend.onrender.com/process-image', formData);
 
       const newText = response.data.text;
       setResponseText(newText);
